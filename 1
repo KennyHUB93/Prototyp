@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine Webseite</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      position: relative;
+      height: 70vh;
+      background: url('https://via.placeholder.com/1500x600') center/cover no-repeat;
+    }
+    nav {
+      background: #333;
+      color: white;
+      padding: 1em;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 1em;
+      position: relative;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background: #444;
+      top: 2em;
+      list-style: none;
+      padding: 0.5em;
+    }
+    nav ul li ul li {
+      margin: 0;
+      padding: 0.5em;
+    }
+    section {
+      padding: 2em;
+      background: white;
+      margin: 1em auto;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section img {
+      max-width: 100%;
+      height: auto;
+      margin: 1em 0;
+    }
+    h2 {
+      margin-bottom: 1em;
+    }
+    p {
+      margin-bottom: 1em;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header></header>
+  <nav>
+    <ul>
+      <li>Menü
+        <ul>
+          <li><a href="#arbeit">Arbeitserfahrung</a></li>
+          <li><a href="#sprachen">Sprachkenntnisse</a></li>
+          <li><a href="#ausbildungen">Ausbildungen</a></li>
+          <li><a href="#hobbys">Hobbys</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="arbeit">
+    <h2>Arbeitserfahrung</h2>
+    <p>ETSCHLANDMÖBEL – BURGSTALL, ITALIEN
+VERKÄUFER – 01.01.2024 – 01.02.2025
+- Verkauf und Planung von Möbeln und Küchen
+- Marketing
+- Preis- & Marktanalyse
+
+FACHHAUS KG (FAMILIENBETRIEB) – BURGSTALL, ITALIEN
+VERKÄUFER – 01.01.2022 – 31.12.2023
+- Übernahme des Familienbetriebs
+
+HANDELS UND DIENSTLEISTUNGSVERBAND SÜDTIROL (HDS) – BRUNECK, ITALIEN
+BUCHHALTER – 01.03.2019 – 01.11.2021
+- Forfait & Minimi, Rechnungswesen, einfache Buchhaltung
+
+TRAUBENWIRT – LANA, ITALIEN
+KELLNER – 01.01.2018 – 01.01.2019
+
+HOTEL RÖSSL – RABLAND, ITALIEN
+KELLNER – 01.05.2015 – 01.10.201.</p>
+    <img src="https://via.placeholder.com/800x400" alt="Arbeit Bild 1">
+    <img src="https://via.placeholder.com/800x400" alt="Arbeit Bild 2">
+  </section>
+
+  <section id="sprachen">
+    <h2>Sprachkenntnisse</h2>
+    <p>Muttersprache: DEUTSCH
+
+Weitere Sprache:
+ITALIENISCH C2 
+ENGLISCH C2 
+SPANISCH B1 </p>
+    <img src="https://via.placeholder.com/800x400" alt="Sprachkenntnisse Bild">
+  </section>
+
+  <section id="ausbildungen">
+    <h2>Ausbildungen</h2>
+    <p>STUDIUM SPORT UND ERNÄHRUNG (LEHRAMT) Universität Innsbruck
+
+STUDIUM KRANKENPFLEGE Claudiana Bozen
+
+FITNESSCOACH & WELLNESSCOACH Herbalife</p>
+    <img src="https://via.placeholder.com/800x400" alt="Ausbildung Bild">
+  </section>
+
+  <section id="hobbys">
+    <h2>Hobbys</h2>
+    <p>Triathlon (Lang- und Mitteldistanz)
+Ausdauersportart, bestehend aus einem Mehrkampf der Disziplinen Schwimmen, Radfahren und Laufen</p>
+    <!-- HIER Bild-URL ersetzen -->
+    <img src="https://via.placeholder.com/800x400" alt="Hobby Bild">
+  </section>
+</body>
+</html>
